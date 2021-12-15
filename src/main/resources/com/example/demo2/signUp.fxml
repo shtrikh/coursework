@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.SignUpController">
+    <children>
+        <AnchorPane layoutY="90.0" prefHeight="310.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="SignUpButton" layoutX="269.0" layoutY="244.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="136.0" text="Sign Up" />
+            <TextField fx:id="SignUpName" layoutX="36.0" layoutY="26.0" prefHeight="38.0" prefWidth="265.0" promptText="Name" />
+            <TextField fx:id="SignUpLastName" layoutX="375.0" layoutY="26.0" prefHeight="38.0" prefWidth="265.0" promptText="Second Name" />
+            <TextField fx:id="SignUpLogin" layoutX="36.0" layoutY="77.0" prefHeight="38.0" prefWidth="265.0" promptText="Login" />
+            <TextField fx:id="SignUpCheckCountry" layoutX="218.0" layoutY="174.0" prefHeight="38.0" prefWidth="265.0" promptText="Location" />
+            <CheckBox fx:id="SignUpCheckBoxMale" layoutX="252.0" layoutY="126.0" mnemonicParsing="false" selected="true" text="male" />
+            <CheckBox fx:id="SignUpCheckBoxFemale" layoutX="353.0" layoutY="126.0" mnemonicParsing="false" text="female" />
+            <PasswordField fx:id="SignUpPassword" layoutX="375.0" layoutY="77.0" prefHeight="38.0" prefWidth="265.0" promptText="Password" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="268.0" layoutY="14.0" prefHeight="42.0" prefWidth="165.0" text="LifeStar" textFill="WHITE">
+            <font>
+                <Font size="47.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

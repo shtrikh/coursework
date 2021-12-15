@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.allTariffsController">
+   <children>
+      <Label layoutX="268.0" layoutY="14.0" prefHeight="42.0" prefWidth="165.0" text="LifeStar" textFill="WHITE">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Table" layoutX="95.0" layoutY="100.0" prefHeight="200.0" prefWidth="510.0">
+         <columns>
+            <TableColumn fx:id="TableName" prefWidth="176.0" text="Name" />
+            <TableColumn fx:id="TablePrice" minWidth="0.0" prefWidth="91.0" text="Price" />
+            <TableColumn fx:id="TableUsers" prefWidth="83.0" text="Users" />
+            <TableColumn fx:id="TableMinutes" prefWidth="82.0" text="Minutes" />
+            <TableColumn fx:id="TableMegabytes" prefWidth="77.0" text="Megabytes" />
+         </columns>
+      </TableView>
+      <Button fx:id="ButtonBack" layoutX="582.0" layoutY="24.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="78.0" text="Button" />
+   </children>
+</AnchorPane>
